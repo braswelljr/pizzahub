@@ -1,0 +1,12 @@
+{
+  "name": "pizza-store",
+  "version": "1.0.0",
+  "description": "pizza order store",
+  "main": "app.js",
+  "scripts": {
+    "process:css": "postcss ./public/style/css/tailwind.css -o ./public/style/build/main.css",
+    "watch:css": "postcss ./public/style/css/tailwind.css -o ./public/style/build/main.css --watch"
+  },
+  "author": "Braswelljr",
+  "license": "MIT"
+}
